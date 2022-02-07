@@ -18,12 +18,26 @@ body {
   width: 300px;
   border: 1px solid rgb(0, 0, 0);
   border-radius: 5px;
+}
 
+#top-left-area{
+  display: flex;
+  padding: 5px;
+}
+
+.close, .minimize, .maximize{
+  width: 15px;
+  height: 15px;
+  background-color: rgb(148, 148, 148);
+  border-radius: 50%;
+  margin-left: 10px;
+  cursor: pointer;
 }
 .result-area {
   width: 100%;
   background-color: rgb(38, 38, 38);
   color: white;
+  border-radius: 5px 5px 0px 0px;
   
 }
 .result-area  p {
@@ -31,25 +45,23 @@ body {
   padding-right: 10px;
   text-align: right;
   line-height: 30px;
-  border-radius: 5px;
   font-size: 52px;
   margin-bottom: 10px;
 }
 span {
-  box-sizing: border-box; font-size: 2em;
+  box-sizing: border-box; 
+  font-size: 26px;
   text-align: center;
   cursor: pointer;
   width: 25%;
   background-color: rgb(101, 101, 101);
   line-height: 50px;
-  border-top: 1px solid rgb(0, 0, 0);
-  border-left: 1px solid rgb(0, 0, 0);
+  border: 1px solid rgb(28, 28, 28);
   color: white;
   font-weight: bolder;
 }
 .operator {
-  background-color: #f08c00;
-  color: white;
+  background-color: #f08c00;  
 }
 .double {
   width: 50%;
@@ -58,16 +70,4 @@ span {
   background-color: rgb(133, 133, 133);
 }
 
-#top-left-area{
-    display: flex;
-    padding: 5px;
-}
 
-.close, .minimize, .maximize{
-    width: 15px;
-    height: 15px;
-    background-color: rgb(148, 148, 148);
-    border-radius: 50%;
-    margin-left: 5px;
-    cursor: pointer;
-}
