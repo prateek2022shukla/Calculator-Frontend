@@ -2,15 +2,14 @@
 
 * {
   font-family: 'Roboto';
-  font-weight: 100;
+  font-weight: 600;
 }
 
 body {
   display: flex;
   justify-content: center;
   margin-top: 5%;
-  font-size: 2em;
-  background-color: #bbb;
+  background-color: rgb(228, 228, 228);
 }
 .iOS-calculator {
   display: flex;
@@ -41,10 +40,12 @@ span {
   text-align: center;
   cursor: pointer;
   width: 25%;
-  background-color: rgb(142, 142, 142);
+  background-color: rgb(101, 101, 101);
   line-height: 50px;
   border-top: 1px solid rgb(0, 0, 0);
-  border-left: 1px solid rgb(0, 0, 0);;
+  border-left: 1px solid rgb(0, 0, 0);
+  color: white;
+  font-weight: bolder;
 }
 .operator {
   background-color: #f08c00;
@@ -54,7 +55,7 @@ span {
   width: 50%;
 }
 .grey {
-  background-color: rgb(92, 92, 92);
+  background-color: rgb(133, 133, 133);
 }
 
 #top-left-area{
